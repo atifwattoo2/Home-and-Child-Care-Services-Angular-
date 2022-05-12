@@ -1,0 +1,154 @@
+<br>
+<div class="container">
+
+  <!-- HomeTutor input -->
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/imges/Home Tutor.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+             
+            
+            <h5 class="card-title">  {{this.candidate_data[0].job_name}}  </h5>
+            <p class="card-text">
+
+              <p>Name: {{this.candidate_data[0].Name}} </p>
+
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Requirements 
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Country: {{this.candidate_data[0].Country}}</li>
+                        <li class="list-group-item">State: {{this.candidate_data[0].State}}</li>
+                        <li class="list-group-item">Age: {{this.candidate_data[0].Age}}</li>
+                        <li class="list-group-item">Gender: {{this.candidate_data[0].Gender}}</li>
+                        <li class="list-group-item">{{this.candidate_data[0].Experience}}</li>
+                        <li class="list-group-item">Subject Specialist: {{this.candidate_data[0].SubjectSpecialist}} </li>
+                      </ul>
+                      
+                    
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>             
+     
+          <button type="button" class="btn btn-primary">Apply Job</button>
+          <button type="button" class="btn btn-primary">Message</button>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">{{this.candidate_data[0].LastUpdated}}</small>
+          </div>
+        </div>
+      </div>
+
+
+       <!-- Babysitter Required -->
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/imges/babysitter.jpg" class="card-img-top" alt="..">
+          <div class="card-body">
+            
+            <h5 class="card-title">{{this.candidate_data[1].job_name}}</h5>
+            <p class="card-text">
+
+              <p>Name: {{this.candidate_data[1].Name}}</p>
+
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Requirements 
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Country: {{this.candidate_data[1].Country}}</li>
+                        <li class="list-group-item">State: {{this.candidate_data[1].State}}</li>
+                        <li class="list-group-item">Age: {{this.candidate_data[1].Age}}</li>
+                        <li class="list-group-item">Gender: {{this.candidate_data[1].Gender}}</li>
+                        <li class="list-group-item">{{this.candidate_data[1].Experience}}</li>
+                      </ul>
+                      
+                    
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>             
+      
+          <button type="button" class="btn btn-primary">Apply Job</button>
+          <button type="button" class="btn btn-primary">Message</button>
+          
+
+          
+
+          </div>
+
+          <div class="card-footer">
+            <small class="text-muted">{{this.candidate_data[1].LastUpdated}}</small>
+          </div>
+        </div>
+      </div>
+
+      <!-- Maid Required -->
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="./assets/imges/maid.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            
+            <h5 class="card-title">{{this.candidate_data[2].job_name}}</h5>
+            <p class="card-text">
+
+              <p>Name: {{this.candidate_data[2].Name}}</p>
+
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                     Requirements 
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">
+
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Country: {{this.candidate_data[2].Country}}</li>
+                        <li class="list-group-item">State: {{this.candidate_data[2].State}}</li>
+                        <li class="list-group-item">Age: {{this.candidate_data[2].Age}}</li>
+                        <li class="list-group-item">Gender: {{this.candidate_data[2].Gender}}</li>
+                        <li class="list-group-item">{{this.candidate_data[2].Experience}}</li>
+                      </ul>
+                      
+                    
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>             
+       
+          <button type="button" class="btn btn-primary">Apply Job</button>
+          <button type="submit" class="btn btn-primary">Message</button>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">{{this.candidate_data[2].LastUpdated}}</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+
+
+
+  </div>

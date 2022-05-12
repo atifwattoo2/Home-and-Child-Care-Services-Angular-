@@ -1,0 +1,148 @@
+
+#navtext{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 2px;
+    color: dimgray;
+    font-weight: bold;
+}
+
+#navtext:hover{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 2px;
+    color: #0d6efd;
+    font-weight: bold;
+
+}
+#navtext2{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: -17px;
+    color: dimgray;
+    font-weight: bold;
+}
+
+#navtext2:hover{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: -17px;
+    color: #0d6efd;
+    font-weight: bold;
+
+}
+
+
+
+#button1{
+    color: white;
+   text-align: center;
+    height: 60px;
+    width: 177px;
+    border-radius: 20px;
+    margin: 20px;
+}
+#button1:hover{
+
+    border: solid black;
+    font-size: 15px;
+    height: 60px;
+    width: 177px;
+    border-radius: 20px;
+    margin: 20px;
+    color: black;
+    text-decoration: none !important;
+    background-color: white;
+}
+#link{
+    color: white;
+    text-decoration: none;
+}
+
+#button2{
+   
+    height: 3rem;
+    width: 177px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+#text2{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+
+}
+#text1{
+    font-size: 1.5rem;
+    color: black;
+}
+.page-footer{
+    background-color: #2b2f31;
+}
+#link2{
+    color: #ccc;
+    text-decoration: none;
+}
+#link2:hover{
+    color: #0d6efd;
+    text-decoration: none;
+    
+}
+#footerHeading{
+    color: white;
+    margin-left: 30px;
+}
+
+.footer-copyright{
+    text-align: center;
+
+    color: #ccc;
+    background-color: #222425;
+
+}
+
+#contact1{
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #212529;
+}
+#line1{
+    border:1px solid #0d6efd;
+}
+
+#cont-text1{
+    font-size: 20px;
+    text-align: center;
+}
+#conf-text{
+    text-align: center;
+    font-size: 25px;
+    color: dimgray;
+}
+#conf-text2{
+    text-align: center;
+    font-size: 15px;
+    color: dimgray;
+}
+#conf-link{
+    text-decoration: none;
+}
+#conf-link:hover{
+    text-decoration: line;
+
+}
+
+#pills-contact{
+    height: 25rem;
+    width: 100%;
+}
+
+#sign-in-footer{
+
+    width: 100%;
+    margin-top: 7rem;
+
+
+
+}

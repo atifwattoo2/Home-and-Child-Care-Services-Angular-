@@ -1,0 +1,35 @@
+<div class="container col-md-6" id="contact1">
+    <form class="row g-3">
+      <hr id="line1">
+        <div class="col-md-6">
+            <label for="inputFirstName" class="form-label">First Name</label>
+            <input type="text"  [(ngModel)]="sign_up.FirstName" name="FirstName" class="form-control" id="FirstNmae">
+          </div>              
+          <div class="col-md-6">
+            <label for="LastName" class="form-label">Last Name</label>
+            <input type="text" [ngModelOptions]="{standalone:true}" [(ngModel)]="sign_up.LastName" class="form-control" id="LastName">
+          </div>
+          <div class="col-md-6">
+            <label for="inputMobileNumber" class="form-label">Mobile Number</label>
+            <input type="tel"  [(ngModel)]="sign_up.MobileNumber" name="MobileNumber" class="form-control" id="inputMobileNumber" pattern="+94[0-9]{3}-[0-9]{7}" value="+92">
+          </div>
+          <div class="col-md-6">
+            <label for="Catogary"  class="form-label">Register as</label>
+            <select id="inputState" [(ngModel)]="sign_up.RegisterAs" name="RegisterAs" class="form-select">
+              <option selected>Choose...</option>
+              <option *ngFor="let opt of selector">{{opt.option}}</option>
+            </select>
+          </div>
+        
+        
+        <button type="button" class="btn btn-primary" (click)="process()">Sign Up</button>
+        <div>
+           <p>
+            Already have an account? <a routerLink="/sign-in">Sign In</a>
+           </p>
+        </div>
+
+
+      </form>
+      
+</div>
